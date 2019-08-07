@@ -33,15 +33,6 @@ class TestDU {
 	}
 	
 	@Test
-	void test_GivenEmptyFolderThrowsException() {
-		Path root = Paths.get(".").normalize().toAbsolutePath();
-		Path filePath = Paths.get(root.toString(),"test_du","empty_folder");
-		
-		EmptyFolderException thrown = assertThrows(EmptyFolderException.class, () -> DU.traverse(filePath.toString()));
-		assertEquals("The folder passed as arg is empty", thrown.getMessage());
-	}
-	
-	@Test
 	void test_GivenFolderWithFilesCalculatesSizes() throws EmptyFolderException, IOException {
 		Path root = Paths.get(".").normalize().toAbsolutePath();
 		Path filePath = Paths.get(root.toString(),"test_du");
