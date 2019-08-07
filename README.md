@@ -6,20 +6,19 @@ Write a program that takes as input from the command line an absolute path, and 
 For example, if we have a directory on our computer, c:\test_du that contains the following
 directories and files:
 
-C:\test_du\foo\a.dat (100kb)
-C:\test_du\foo\b.dat (200kb)
-C:\test_du\foo\another_dir\jim.dat (500kb)
-C:\test_du\bar\ball.jpg (5kb)
-C:\test_du\bar\sam\sam1.jpg (100kb)
-C:\test_du\bar\sam\sam2.jpg (300kb)
-C:\test_du\somefile.dat (700kb)
+- C:\test_du\foo\a.dat (100kb)
+- C:\test_du\foo\b.dat (200kb)
+- C:\test_du\foo\another_dir\jim.dat (500kb)
+- C:\test_du\bar\ball.jpg (5kb)
+- C:\test_du\bar\sam\sam1.jpg (100kb)
+- C:\test_du\bar\sam\sam2.jpg (300kb)
+- C:\test_du\somefile.dat (700kb)
 
 Running the command java DU c:\test_du should produce the following output:
 
-DIR C:\TEST_DU\FOO 800KB
-FILE C:\TEST_DU\SOMEFILE.DAT 700KB
-DIR C:\TEST_DU\BAR 405KB
-
+- DIR C:\TEST_DU\FOO 800KB
+- FILE C:\TEST_DU\SOMEFILE.DAT 700KB
+- DIR C:\TEST_DU\BAR 405KB
 
 ## Requirements
 In order to run this web application you'll need:
