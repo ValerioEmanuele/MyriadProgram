@@ -1,4 +1,5 @@
-# MyriadProgram [![Build Status](https://travis-ci.org/ValerioEmanuele/MyriadProgram.svg?branch=master)](https://travis-ci.org/ValerioEmanuele/MyriadProgram)
+# MyriadProgram ![Travis Build status](https://travis-ci.org/ValerioEmanuele/MyriadProgram.svg?branch=master)
+
 This project solves the following problem:
 
 Write a program that takes as input from the command line an absolute path, and prints out a list of subdirectories and files contained within that path; sorting by size from largest to smallest.  The size of a subdirectory is the size of all of that subdirectories contents.  The program should also display the size of the files, and subdirectories in kilobytes.
