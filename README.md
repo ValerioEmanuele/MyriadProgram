@@ -1,4 +1,4 @@
-# MyriadProgram ![Travis Build status](https://travis-ci.org/ValerioEmanuele/MyriadProgram.svg?branch=master)
+# MyriadProgram [![Build Status](https://travis-ci.org/ValerioEmanuele/MyriadProgram.svg?branch=master)](https://travis-ci.org/ValerioEmanuele/MyriadProgram)
 
 This project solves the following problem:
 
